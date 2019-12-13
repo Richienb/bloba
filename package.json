@@ -1,6 +1,6 @@
 {
     "name": "bloba",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "description": "Convert anything to a Blob.",
     "repository": "https://github.com/Richienb/bloba.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
