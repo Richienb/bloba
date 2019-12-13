@@ -1,7 +1,6 @@
 "use strict"
 
-module.exports = (input, { postfix = "rainbows" } = {}) => {
-    if (typeof input !== "string") throw new TypeError(`Expected a string, got ${typeof input}`)
+const Blob = require("cross-blob")
+const toArrayBuffer = require("to-array-buffer")
 
-    return `${input} & ${postfix}`
-}
+module.exports = (object) => new Blob([toArrayBuffer(object)])

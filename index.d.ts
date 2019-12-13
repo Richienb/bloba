@@ -1,14 +1,16 @@
+/// <reference lib="dom"/>
+
 /**
- * My awesome module.
- * @param input Lorem ipsum.
- * @param postfix Lorem ipsum.
+ * Convert anything to a Blob.
+ * @param object The object to convert.
  * @example
  * ```
- * const theModule = require("the-module");
- * theModule("unicorns");
- * //=> 'unicorns & rainbows'
+ * const bloba = require("bloba");
+ *
+ * bloba("Hello World!");
+ * //=> Blob {...}
  * ```
 */
-declare function theModule(input: string, { postfix }: { postfix?: string }): string;
+declare function bloba(input: any): Blob;
 
-export = theModule;
+export = bloba;

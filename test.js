@@ -1,13 +1,9 @@
 import test from "ava"
-import theModule from "."
+import Blob from "cross-blob"
+import isBlob from "is-blob"
+globalThis.Blob = Blob
+import bloba from "."
 
 test("main", (t) => {
-    t.throws(() => {
-        theModule(123)
-    }, {
-        instanceOf: TypeError,
-        message: "Expected a string, got number",
-    })
-
-    t.is(theModule("unicorns"), "unicorns & rainbows")
+    t.true(isBlob(bloba("Hello World!")))
 })

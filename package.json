@@ -1,8 +1,8 @@
 {
-    "name": "the-module",
+    "name": "bloba",
     "version": "0.0.0",
-    "description": "My awesome module.",
-    "repository": "https://github.com/Richienb/the-module.git",
+    "description": "Convert anything to a Blob.",
+    "repository": "https://github.com/Richienb/bloba.git",
     "author": "Richie Bendall <richiebendall@gmail.com>",
     "license": "MIT",
     "main": "index.js",
@@ -11,17 +11,29 @@
         "index.d.ts"
     ],
     "engines": {
-        "node": ">=8"
+        "node": ">=6"
     },
     "scripts": {
         "lint": "xo",
         "test": "yarn lint && ava"
     },
-    "keywords": [],
-    "dependencies": {},
+    "keywords": [
+        "convert",
+        "blob",
+        "array",
+        "buffer",
+        "arraybuffer",
+        "string",
+        "cross"
+    ],
+    "dependencies": {
+        "cross-blob": "^1.1.1",
+        "to-array-buffer": "^3.2.0"
+    },
     "devDependencies": {
         "ava": "^2.1.0",
         "eslint-config-richienb": "^0.2.3",
+        "is-blob": "^2.1.0",
         "xo": "^0.25.3"
     },
     "resolutions": {
