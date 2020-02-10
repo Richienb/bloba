@@ -1091,9 +1091,9 @@ core-js@^2.0.0:
   integrity sha512-I39t74+4t+zau64EN1fE5v2W31Adtc/REhzWN+gWRRXg6WH5qAsZm62DHpQ1+Yhe4047T55jvzz7MUqF/dBBlA==
 
 cross-blob@^1.1.1:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/cross-blob/-/cross-blob-1.2.0.tgz#bd8556635e498bb29116a356b826b431b629c430"
-  integrity sha512-34Hn7h8NhHJnKh5yztq2Xk3hdbwuyok7T/3kNUgpg4nkABaD8vjMgln8RtxSUbFpReJFvTIKQubU41gai3cEdg==
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/cross-blob/-/cross-blob-1.2.1.tgz#b565f953c46085154ebd2c1074620d39c8181cc6"
+  integrity sha512-UjtHJ46lLBG9YVCnzg1l53Wo7zezeFUMntpYeFWGLaomBMTpbTREwJmjhI3EnqsScJ6ick5brojofK3dK8QoNQ==
   dependencies:
     blob-polyfill "^4.0.20190430"
     fetch-blob "^1.0.5"
