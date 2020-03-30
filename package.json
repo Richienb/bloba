@@ -31,7 +31,7 @@
         "to-array-buffer": "^3.2.0"
     },
     "devDependencies": {
-        "ava": "^2.1.0",
+        "ava": "^3.5.2",
         "eslint-config-richienb": "^0.2.3",
         "is-blob": "^2.1.0",
         "xo": "^0.25.3"
